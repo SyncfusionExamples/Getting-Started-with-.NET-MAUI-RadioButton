@@ -10,8 +10,8 @@ This section provides a quick overview for working with the SfRadioButton for .N
 
 To use this control inside an application, you must register the handler for Syncfusion® core.
 
-```C#
-
+**C#**
+```
 using Microsoft.Extensions.Logging;
 using Syncfusion.Maui.Core.Hosting;
 
@@ -46,7 +46,8 @@ namespace RadioButtonGettingStarted
 1. Import the control namespace `Syncfusion.Maui.Buttons` in XAML or C# code.
 2. Initialize [SfRadioButton](https://help.syncfusion.com/cr/maui/Syncfusion.Maui.Buttons.SfRadioButton.html) control.
 
-```xml
+**XAML**
+```
 <ContentPage
     . . .    
     xmlns:buttons="clr-namespace:Syncfusion.Maui.Buttons;assembly=Syncfusion.Maui.Buttons">
@@ -54,10 +55,8 @@ namespace RadioButtonGettingStarted
 </ContentPage>
 ```
 
-```C#
-using Syncfusion.Maui.Core;
-. . .
-
+**C#**
+```
     using Syncfusion.Maui.Buttons;
     namespace RadioButtonGettingStarted
     {
@@ -107,4 +106,4 @@ You can group multiple Radio Buttons together by using Radio Group. Only one but
 ```
 Run the application to render the following output:
 
-![Getting started with .NET MAUI busy indicator](net-maui-radio-button.png)
+![Getting started with .NET MAUI Radio Button](net-maui-radio-button.png)
